@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Resources/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>CSS Layout</title>
+</head>
+<!-- header and nav -->
+<body>
+    <header>
+        <h1>CSS Layout Cheatsheet</h1>
+    </header>
+    <nav>
+        <!-- ul li for nav bar would go here -->
+    </nav>
+<!-- content -->
+    <main>
+        <section>
+            <h2>Box Models</h2>
+                <p>
+
+                </p>
+                <!-- Table of CSS Box Model-->
+                <table>
+                    <!-- Title Row -->
+                    <tr>
+                        <th colspan="3">Standard Box Model</th>
+                    </tr>
+                    <!-- Headers Row -->
+                    <tr>
+                        <td class="columntitle">Part Name</td>
+                        <td class="columntitle">Definition</td>
+                        <td class="columntitle">Sizing</td>
+                    </tr>
+                    <!-- data row 1 -->
+                    <tr>
+                        <td class="term">Content Box</td>
+                        <td>The area where your content is displayed.</td>
+                        <td>Size it using properties like <em>inline-size</em> and 
+                            <em>block-size</em> or <em>width and height</em></td> 
+                    </tr>
+                    <!-- data row 2 -->
+                    <tr>
+                        <td class="term">Padding Box</td>
+                        <td>The area around the content as white space.</td>
+                        <td>Size it using <em>padding</em> and related properties.</td>
+                    </tr>
+                    <!-- data row 3 -->
+                    <tr>
+                        <td class="term">Border Box</td>
+                        <td>Wraps the content and any padding.</td>
+                        <td>Size it using <em>border</em> and related properties</td>
+                    </tr>
+                    <!-- data row 4 -->
+                    <tr>
+                        <td class="term">Margin Box</td>
+                        <td>The outermost layer, wrapping content, padding,
+                            and <br> border, as whitespace 
+                            between this box and other elements.</td>
+                        <td>Size it using <em>margin</em> and related properties.</td>
+                    </tr>
+                </table>
+        </section>
+        <section>
+            <h2>Layout Properties</h2>
+                <p>
+
+                </p>
+                <!-- Table of Layout-->
+                <table>
+                    <!-- Title Row -->
+                    <tr>
+                        <th colspan="3">Layout Properties</th>
+                    </tr>
+                    <!-- Headers Row -->
+                    <tr>
+                        <td class="columntitle">Property</td>
+                        <td class="columntitle">Definition</td>
+                        <td class="columntitle">Types or Values</td>
+                    </tr>
+                    <!-- data row 1 -->
+                    <tr>
+                        <td class="term">Display</td>
+                        <td>Change how elements behave in normal flow.</td>
+                        <td>block, inline, or inline-block</td> 
+                    </tr>
+                    <!-- data row 2 -->
+                    <tr>
+                        <td class="term">Floats</td>
+                        <td>Causes block level elements to wrap along one side of an element.</td>
+                        <td>right, left</td>
+                    </tr>
+                    <!-- data row 3 -->
+                    <tr>
+                        <td class="term">Clear</td>
+                        <td>Used with <em>float</em> property to keep one side of an element clear of other elements.<br>Usually used after the element that was floated.</td>
+                        <td>left, right, both</td>
+                    </tr>
+                    <!-- data row 4 -->
+                    <tr>
+                        <td class="term">Position</td>
+                        <td>Precise control of position of boxes inside of boxes.</td>
+                        <td>e.g. static, absolute, fixed, sticky</td>
+                    </tr>
+                </table>
+        </section>
+
+    </main>
+<!-- footer -->
+    <footer></footer>
+</body>
+</html>
